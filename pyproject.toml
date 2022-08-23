@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "ai-lesson"
+version = "0.1.0"
+description = ""
+authors = ["gordondalos <gordondalos@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "3.8.10"
+pandas = "^1.4.3"
+numpy = "^1.23.1"
+tensorflow = "^2.9.1"
+matplotlib = "^3.5.2"
+jupyter = "^1.0.0"
+keras = "^2.9.0"
+opencv-python = "^4.6.0"
+scikit-image = "^0.19.3"
+pyzbar = "^0.1.9"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
